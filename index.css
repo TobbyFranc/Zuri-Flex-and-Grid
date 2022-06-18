@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family:;*/
+}
+
+body{
+    background-color: #d9d9d9;
+    font-size: 15px;
+    color: hsl(0, 0%, 95%);
+}
+
+main{
+    width: 50%;
+    min-height: 110vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 15px;
+    position: absolute;
+    left: 350px;
+    /*top: 200px;
+    /*box-sizing: border-box;*/
+}
+
+main div{
+    padding: 20px;
+    height: 500px;
+    min-width: 300px;
+    align-items: left;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    /*align-items: center;*'/
+    /*justify-content: center;*/
+    min-width: auto;
+    min-height: 3vh;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 2px;
+    padding: 4px;
+    border: 2px solid aqua;
+    border-radius: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+nav li a{
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+}
+
+nav li a:visited{
+    border: 2px solid rgb(209, 63, 209);
+    color: rgb(209, 63, 209);
+}
+
+nav li a:hover{
+    background-color: GREY;
+    border-color: hsl(179, 100%, 13%);
+    color: white;
+}
+
+.box1{
+    background-color: hsl(31, 77%, 52%);
+   
+}
+
+.box2{
+    background-color: hsl(184, 100%, 22%);
+  
+}
+
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+div h3{
+    margin: 25px;
+}
+
+div p{
+    margin: 25px;
+    line-height: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+position: relative;
+left: 20px;
+top: 80px;
+padding: 12px;
+background: transparent;
+border-radius: 50px;
+border-color: hsl(0, 0%, 95%);
+color: hsl(0, 0%, 95%);
+cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 95%);
+    color: sienna;
+}
