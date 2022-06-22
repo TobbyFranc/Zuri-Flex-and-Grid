@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(9, 9, 19, 0.993);
+}
+
+main{
+    background-color: rgb(51, 46, 54);
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e'
+    ;
+
+    gap: 10px;
+    width: 60%;
+    margin: 50px;
+    padding: 100px;
+    position: absolute;
+    left: 250px;
+    top: 10px;
+}
+
+main div{
+    width: 100%;
+    min-height: 15vh;
+}
+
+.a{
+    background-color: orangered;
+    grid-area: a;
+}
+
+.b{
+    background-color: darkgoldenrod;
+    grid-area: b;
+}
+
+.c{
+    background-color: darkgreen;
+    grid-area: c;
+}
+
+.d{
+    background-color: aqua;
+    grid-area: d;
+}
+
+.e{
+    background-color: aqua;
+    grid-area: e;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    /*align-items: center;*'/
+    /*justify-content: center;*/
+    min-width: auto;
+    min-height: 3vh;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 2px;
+    padding: 4px;
+    border: 2px solid aqua;
+    border-radius: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+nav li a{
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+}
+
+nav li:visited{
+    border: 2px solid rgb(209, 63, 209);
+    color: rgb(209, 63, 209);
+}
+
+nav li:hover{
+    background-color: GREY;
+    border-color: hsl(179, 100%, 13%);
+    color: white;
+}

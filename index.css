@@ -62,12 +62,12 @@ nav li a{
     color: hsl(179, 100%, 13%);
 }
 
-nav li a:visited{
+nav li:visited{
     border: 2px solid rgb(209, 63, 209);
     color: rgb(209, 63, 209);
 }
 
-nav li a:hover{
+nav li:hover{
     background-color: GREY;
     border-color: hsl(179, 100%, 13%);
     color: white;
